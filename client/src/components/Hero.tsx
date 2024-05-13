@@ -7,7 +7,7 @@ import dentistaHombreDos from "../assets/images/dentistahombre2.jpg";
 const { Meta } = Card;
 
 const Hero: React.FC = () => (
-    <div className="bg-slate-200 mt-10">
+    <div className="bg-slate-200 mt-10 ">
         <div className="w-full flex items-center justify-center p-10 text-3xl">
             <p className="">Nuestros Porfesionales</p>
         </div>
@@ -39,7 +39,7 @@ const Hero: React.FC = () => (
                 </p>
             </Card>
             <Card
-                className="text-center"
+                className="text-center mb-5"
                 style={{ width: 300, height: 400 }}
                 cover={<img alt="example" src={dentistaHombreDos} />}
             >
