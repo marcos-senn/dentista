@@ -4,7 +4,7 @@ import { services } from "../data/index";
 const { Meta } = Card;
 
 const App: React.FC = () => (
-    <div className="flex w-full justify-evenly mb-[100px] ">
+    <div className="w-full ">
         {services.map((element:any) => (
             <Card className="flex items-center justify-items-center justify-center flex-col "
                 hoverable
