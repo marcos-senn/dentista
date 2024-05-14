@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "antd";
-import { services } from "../data/index";
+import { services } from "../data/index.js";
 const { Meta } = Card;
 
 const App: React.FC = () => (

@@ -1,4 +1,10 @@
-export const services = [
+interface Service {
+    Servicio: string;
+    Descripción: string;
+    Imagen: string;
+  }
+
+export const services: Service[] = [
    { 
        Servicio: "Exámenes Regulares", 
        Descripción: "Mantén tu salud bucal con exámenes regulares para prevenir problemas dentales.",
