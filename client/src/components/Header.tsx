@@ -1,17 +1,13 @@
 import dentistaTrabajando from "../assets/images/dentista-trabajando.jpg";
 import { Button } from "antd";
-import Nav from "./Nav";
+
 
 const Header = () => {
     return (
-        <div className=" bg-slate-600">
-            <div className="">
-                <Nav></Nav>
-            </div>
-
+        <div className="relative w-full h-[700px] bg-cover bg-center bg-no-repeat flex justify-end">
             <div
-                className="relative h-[700px] bg-cover bg-center bg-no-repeat flex justify-end"
-                style={{ backgroundImage: `url(${dentistaTrabajando})` }}
+                className="relative w-full h-[700px] bg-cover bg-center bg-no-repeat flex justify-end "
+                style={{ backgroundImage: `url(${dentistaTrabajando})`}}
             >
                 <div className="absolute bottom-0 left-0 p-4">
                     <div className="">
@@ -23,7 +19,7 @@ const Header = () => {
                             cuidado dental con tratamientos individuales según
                             tus necesidades.
                         </p>{" "}
-                        <Button className="" type="primary">
+                        <Button className="" type="primary" href="#contact">
                             CONTACTANOS
                         </Button>
                     </div>

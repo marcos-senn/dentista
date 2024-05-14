@@ -6,20 +6,29 @@ type MenuItem = Required<MenuProps>['items'][number];
 
 const items: MenuItem[] = [
   {
-    label: 'HOME',
+    label: (
+      <a href="#nav" target="" rel="noopener noreferrer">
+       HOME
+      </a>
+    ),
     key: 'mail',
   },
   {
-    label: 'NUESTROS SERVICIOS',
-    key: 'app',
+    label: (
+      <a href="#profesionals" target="" rel="noopener noreferrer">
+       QUIENES SOMOS
+      </a>
+    ),
+    key: 'Services',
+    
    
   },
   
   {
     key: 'alipay',
     label: (
-      <a href="https://ant.design" target="_blank" rel="noopener noreferrer">
-       QUIENES SOMOS
+      <a href="#services" target="" rel="noopener noreferrer">
+       NUESTROS SERVICIOS
       </a>
     ),
   },
@@ -33,7 +42,7 @@ const Nav: React.FC = () => {
     setCurrent(e.key);
   };
 
-  return <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} />;
+  return <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items}  style={{maxWidth: '100%'}} id='nav'/>;
 };
 
 export default Nav;

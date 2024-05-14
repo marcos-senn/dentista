@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'getintouch': "url('../src/assets/images/getintouch.jpg')",
+      }
+    },
   },
   plugins: [],
 }

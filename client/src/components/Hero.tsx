@@ -7,12 +7,12 @@ import dentistaHombreDos from "../assets/images/dentistahombre2.jpg";
 const { Meta } = Card;
 
 const Hero: React.FC = () => (
-    <div className="bg-slate-200 mt-10 md:pb-10">
+    <div id="profesionals" className=" mt-10 md:pb-10  bg-slate-800">
         <div className="w-full flex items-center justify-center p-10 text-3xl">
-            <p className="">Nuestros Porfesionales</p>
+            <p className="text-white">Nuestros Porfesionales</p>
         </div>
 
-        <div className="w-full flex flex-col items-center justify-center gap-y-3 mt-10 sm:flex-row sm:gap-40 sm:mt-0">
+        <div className="w-full flex flex-col items-center justify-center gap-y-3 mt-10 sm:flex-row sm:gap-40 sm:mt-0 ">
             <Card
                 className="text-center"
                 style={{ width: 300, height: 400 }}
