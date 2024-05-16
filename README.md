@@ -9,9 +9,9 @@ Deploy Link: https://dentista-sage.vercel.app/
 
 ## Some Features
 
--Service Listings: Detailed descriptions of the dental services offered by the clinic.
--Contact Information: Easily accessible contact details including email, phone number, and clinic address.
--Google Maps Integration: An embedded map showing the clinic's location for easy navigation.
--Responsive Design: Ensures a seamless experience on various devices, including mobile and desktop.
--Interactive User Interface: A user-friendly and engaging interface.
--Fixed NavBar: A fixed navigation bar for better mobile experience.
+- Service Listings: Detailed descriptions of the dental services offered by the clinic.
+- Contact Information: Easily accessible contact details including email, phone number, and clinic address.
+- Google Maps Integration: An embedded map showing the clinic's location for easy navigation.
+- Responsive Design: Ensures a seamless experience on various devices, including mobile and desktop.
+- Interactive User Interface: A user-friendly and engaging interface.
+- Fixed NavBar: A fixed navigation bar for better mobile experience.
